@@ -15,14 +15,14 @@ cd ${GITHUB_WORKSPACE}
 cd ../audioreach-pal/inc
 autoreconf -Wcross --verbose --install --force --exclude=autopoint
 autoconf --force
-./configure ${{ env.BUILD_ARGS }}
+./configure ${BUILD_ARGS}
 make DESTDIR=${SDKTARGETSYSROOT}  install
 cd ${GITHUB_WORKSPACE}
 
 cd ../libatomic_ops
 autoreconf -Wcross --verbose --install --force --exclude=autopoint
 autoconf --force
-./configure ${{ env.BUILD_ARGS }}
+./configure ${BUILD_ARGS}
 make DESTDIR=${SDKTARGETSYSROOT} install
 cp -r ${OECORE_NATIVE_SYSROOT}/usr/share/libtool/* ${SDKTARGETSYSROOT}/usr/include/
 
