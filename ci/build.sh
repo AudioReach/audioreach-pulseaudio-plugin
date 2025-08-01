@@ -9,7 +9,6 @@ source ${GITHUB_WORKSPACE}/install/environment-setup-armv8-2a-poky-linux
 
 # make sure we are in the right directory
 cd ${GITHUB_WORKSPACE}
-
 # Run autoreconf to generate the configure script
 
 #source ./install/environment-setup-armv8-2a-poky-linux
