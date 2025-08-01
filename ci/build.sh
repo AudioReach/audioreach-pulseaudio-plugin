@@ -12,6 +12,7 @@ cd ${GITHUB_WORKSPACE}
 # Run autoreconf to generate the configure script
 
 #source ./install/environment-setup-armv8-2a-poky-linux
+
 cd ./modules/pa-pal-plugins/
 autoreconf -Wcross --verbose --install --force --exclude=autopoint
 autoconf --force
