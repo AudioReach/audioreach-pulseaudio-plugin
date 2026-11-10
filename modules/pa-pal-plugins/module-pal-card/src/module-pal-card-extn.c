@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2021, 2023-2025 Qualcomm Innovation Center, Inc. All rights reserved.
- * SPDX-License-Identifier: BSD-3-Clause-Clear
+ * SPDX-License-Identifier: BSD-3-Clause
  */
 
 #ifdef HAVE_CONFIG_H
